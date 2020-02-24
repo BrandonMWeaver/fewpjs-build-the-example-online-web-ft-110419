@@ -4,7 +4,9 @@ const FULL_HEART = '♥';
 
 // Your JavaScript code goes here!
 
-document.
+document.querySelector(".like-glyph").addEventListener("click", function() {
+  document.querySelector(".like-glyph").innerHTML = FULL_HEART;
+});
 
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
