@@ -13,7 +13,7 @@ function like(event) {
   mimicServerCall().then(function(response) {
     console.log(response.json());
   }).catch(function(error) {
-    
+    document.querySelector("");
   });
 }
 
