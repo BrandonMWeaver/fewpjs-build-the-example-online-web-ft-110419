@@ -14,6 +14,7 @@ function like(event) {
     event.target.className = event.target.innerHTML == EMPTY_HEART? '' : "activated-heart";
   }).catch(function(error) {
     document.querySelector("#modal").className = '';
+    setTimeout()
   });
 }
 
