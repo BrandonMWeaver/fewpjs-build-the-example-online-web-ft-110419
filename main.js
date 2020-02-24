@@ -10,6 +10,9 @@ for (const glyph of document.querySelectorAll(".like-glyph")) {
 
 function like(event) {
   event.target.innerHTML = event.target.innerHTML == EMPTY_HEART ? FULL_HEART : EMPTY_HEART;
+  mimicServerCall().then(function(response) {
+    console.log(response.json());
+  });
 }
 
 //------------------------------------------------------------------------------
