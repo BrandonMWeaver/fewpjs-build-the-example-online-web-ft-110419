@@ -4,7 +4,7 @@ const FULL_HEART = '♥';
 
 // Your JavaScript code goes here!
 
-
+document.
 
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
