@@ -6,7 +6,7 @@ const FULL_HEART = '♥';
 
 for (const glyph of document.querySelectorAll(".like-glyph")) {
   glyph.addEventListener("click", function(event) {
-    event.target.innerHTML = FULL_HEART;
+    event.target.innerHTML = event.target.innerHTML == EMPTY_HEART ? FULL_HEART : EMPTY_HEART;
   });
 }
 
