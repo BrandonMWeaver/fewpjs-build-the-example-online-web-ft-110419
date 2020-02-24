@@ -10,6 +10,7 @@ for (const glyph of document.querySelectorAll(".like-glyph")) {
 
 function like(event) {
   event.target.innerHTML = event.target.innerHTML == EMPTY_HEART ? FULL_HEART : EMPTY_HEART;
+  event.target.style.color = event.target.innerHTML == EMPTY_HEART? "#000" : "#f00"
   mimicServerCall().then(function(response) {
     console.log(response.json());
   }).catch(function(error) {
